@@ -122,6 +122,9 @@ export const RequestSection = () => {
                 id_empresa: null,
                 tipo_prestador: "particular"
             }
+            
+
+            
 
             const response = await fetch(
                 `${process.env.NEXT_PUBLIC_API_URL}/prestacao-servico/create`,
